@@ -5,3 +5,16 @@
 ..if  i  had  to  start   over   i  would   learn  it    like  that : 
 i  watch the    video   and  it  says  that   i  have to  know the  basics of 
 the   hhtml    i  would    take  crash  course  on  it.   so  remember abouth the   patience .
+
+..learn  the   git   later .
+
+
+
+
+.....
+.i  created   the  app   
+.added app  to   installed   apps 
+.added the  views 
+.added the  template  
+.created  app  url   file 
+.  add   urls   with  inlude to  global  url
