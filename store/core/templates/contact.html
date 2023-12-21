@@ -1,5 +1,58 @@
 {% extends "base.html" %}
 {% block   title %}contacts{% endblock %}
 {% block  content%}
-<h2>    this is the   contact  page    </h2>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    <style>
+        /* Add your custom styles here if needed */
+    </style>
+    <title>Tailwind Navbar</title>
+</head>
+
+<body class="bg-gradient-to-r from-purple-500 to-indigo-500 text-white font-sans">
+
+    <nav class="bg-gray-800 p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <!-- Logo or Brand -->
+            <a href="#" class="text-lg font-semibold">Logo</a>
+
+            <!-- Navigation Links -->
+            <div class="space-x-4">
+                <a href="#" class="hover:text-gray-300">New Item</a>
+                <button class="bg-blue-500 hover:bg-blue-700 text-white px-4 py-2 rounded">
+                    Browse
+                </button>
+                <a href="#" class="hover:text-gray-300">Sign Up</a>
+                <a href="#" class="hover:text-gray-300">Log In</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Your Content Goes Here -->
+    <div class="flex-grow">
+        <!-- Content Goes Here -->
+    
+    </div>
+    <footer class="bg-gray-800 p-4 mt-8">
+        <div class="container mx-auto flex justify-center items-center">
+            <div class="space-x-4">
+                <a href="#" class="hover:text-gray-300">Menu</a>
+                <a href="#" class="hover:text-gray-300">About Page</a>
+                <a href="{% url 'index' %}" class="hover:text-gray-300">Main Page</a>
+                <a href="#" class="hover:text-gray-300">Terms of Use</a>
+                <a href="#" class="hover:text-gray-300">Privacy Policy</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
+
 {%  endblock %}
+
