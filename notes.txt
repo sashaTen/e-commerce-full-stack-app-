@@ -1,1 +1,7 @@
-this  is    notes   file
+..this  is    notes   file
+..django    docs  is   indded   a  very  good   source  for  learning :
+..https://docs.djangoproject.com/en/5.0/#index-first-steps
+..the  key  to    growth   is   constant   learning 
+..if  i  had  to  start   over   i  would   learn  it    like  that : 
+i  watch the    video   and  it  says  that   i  have to  know the  basics of 
+the   hhtml    i  would    take  crash  course  on  it.   so  remember abouth the   patience .
