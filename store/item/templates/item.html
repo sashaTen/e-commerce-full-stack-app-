@@ -49,8 +49,10 @@
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {% for item in items %}
                 <div class="bg-gray-100 p-4 shadow-md">
-                    <img src="{{ item.image.url }}" alt="{{ item.name }}" class="w-full h-32 object-cover mb-4" width="auto" height="auto">
-                    <h3 class="text-lg font-semibold">{{ item.name }}</h3>
+                    <img src="{{ item.image.url }}" alt="{{ item.name }}" class="mb-4" style="width: auto ; height: 200px">
+                    <a href="{% url 'detail' item.id %}" class="text-lg font-semibold" style="color: black;">
+                        {{ item.name }}
+                    </a>
                     <p class="text-gray-600">{{ item.description }}</p>
                     <p class="text-green-600 font-bold">{{ item.price }}</p>
                 </div>
