@@ -1,5 +1,16 @@
 from django.shortcuts import render
+from .models import Category, Item
 
-# Create your views here.
-def     index_item(request):
-    return  render(request ,   'item.html' )
+def index_item(request):
+    # Retrieve data from the models
+    categories = Category.objects.all()
+    items = Item.objects.all()
+
+    # Pass the data to the template
+    context = {
+        'categories': categories,
+        'items': items,
+    }
+
+    # Render the template with the data
+    return render(request, 'item.html', context)

@@ -18,3 +18,4 @@ the   hhtml    i  would    take  crash  course  on  it.   so  remember abouth th
 .added the  template  
 .created  app  url   file 
 .  add   urls   with  inlude to  global  url
+.dont  forget  to   include the  models i nto  admin  site 
