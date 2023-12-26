@@ -24,3 +24,8 @@ def detail(request, pk):
 
 
 
+def   category(request ,    pk):
+    category_object   =     get_object_or_404(Category ,    pk=pk)
+    return  render(request ,     'category_page.html' ,     {"category"  :   category_object})
+
+
