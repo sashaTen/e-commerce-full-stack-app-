@@ -19,3 +19,26 @@ the   hhtml    i  would    take  crash  course  on  it.   so  remember abouth th
 .created  app  url   file 
 .  add   urls   with  inlude to  global  url
 .dont  forget  to   include the  models i nto  admin  site 
+
+
+
+....
+..how   to   create  users   
+..   create  forms  .
+and   then   import    forms from   sjango 
+.usercreation  form 
+.from    models  imort   user 
+..class   Sighnup use r 
+model   
+fields .
+. from   forms  import    form  to  views 
+.  create  function    in  views 
+. create   template   
+<form></form>   with   method   post
+
+.  pass  the   form  into the   template
+.create   url  for the   form 
+. create  url  for the  Sighnup   in    base   template
+
+.  if   method    post   in  veiews 
+if   form  is   valid  then   save  it   and  create   user 
