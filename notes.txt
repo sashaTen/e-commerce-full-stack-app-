@@ -42,3 +42,8 @@ fields .
 
 .  if   method    post   in  veiews 
 if   form  is   valid  then   save  it   and  create   user 
+
+
+
+
+...    study   about the  user registrations   
