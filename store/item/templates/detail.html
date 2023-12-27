@@ -1,11 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    detail {{item.name}}
-</body>
-</html>
+{% extends "base.html" %}
+{% block   title %}contacts{% endblock %}
+{% block  content%}
+
+
+<div class="container mx-auto flex justify-center items-center h-full">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl">
+        <div class="flex flex-col items-center mb-8">
+            <h1 class="text-2xl font-bold mb-4">{{ item.name }}</h1>
+            <img src="{{ item.image.url }}" alt="{{ item.name }}" class="mb-4" style="width: 300px; height: 300px; object-fit: cover">
+            <p class="text-gray-600">{{ item.description }}</p>
+            <p class="text-green-600 font-bold">{{ item.price }}</p>
+        </div>
+        <!-- Add more grid items if needed for additional details -->
+    </div>
+</div>
+{%  endblock %}
