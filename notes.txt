@@ -47,3 +47,15 @@ if   form  is   valid  then   save  it   and  create   user
 
 
 ...    study   about the  user registrations   
+
+
+
+...how to   create the     login    function    : 
+..   you  need to   create the    form in  forms .py   for  login  view   
+..   then   you  create  view  function   which   is  
+called  by the   url  login  and  then   it checks   if   POST   info 
+in the   form  ==  exisiting    user and then    decides  to  
+authenticate   or   not 0
+..  lastly   you  create    template
+...  also   you  can  control the    authentication    .  the   login  ined  
+users   can    do  and   cant ..
