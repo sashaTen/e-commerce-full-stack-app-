@@ -29,7 +29,11 @@
                     Browse
                 </button>
                 <a href="{% url 'signup' %}" class="hover:text-gray-300">Sign Up</a>
-                <a href="#" class="hover:text-gray-300">Log In</a>
+                {% if user.is_authenticated %}
+                <a href="{% url 'logout' %}" class="hover:text-gray-300">Log Out</a>
+               {% else %}
+                <a href="{% url 'login' %}" class="hover:text-gray-300">Log In</a>
+               {% endif %}
             </div>
         </div>
     </nav>
