@@ -59,3 +59,39 @@ authenticate   or   not 0
 ..  lastly   you  create    template
 ...  also   you  can  control the    authentication    .  the   login  ined  
 users   can    do  and   cant ..
+
+
+
+.......how to   add  items   :
+..you  create   forms    :
+    from    django   import   forms 
+    from  .models   import   Item
+
+
+    class  NewItemForm(forms.ModelForm):
+        class   Meta :
+            model =  Item
+            fields  =  ('category' ,   'name' ,  'description' ,   'image' ,     'price')
+
+
+.  then  in  views   you  create the  function   for  it  .  also   include    
+the requirenment   of  user  to  be   looged   in. 
+
+
+..@login_required
+def    new(request):
+    if request.method ==  'POST' :
+        form =   NewItemForm(request.POST ,  request.FILES)
+        if  form.is_valid():
+            item = form.save(commit=False)
+            item.created_by   =  request.user
+            item.save()
+            return  redirect('detail'  ,  pk=item.id)
+    form   =   NewItemForm
+    return   render(request ,    'form.html' ,  {'form' : form})
+
+
+
+...then    ofcourse   you  create  the  template   
+...  also     provide the    urls
+
