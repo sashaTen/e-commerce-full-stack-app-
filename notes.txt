@@ -95,3 +95,9 @@ def    new(request):
 ...then    ofcourse   you  create  the  template   
 ...  also     provide the    urls
 
+...created     app   dashboard   :
+.   startapp
+.   add to  setttings 
+.  then  in order to   validate  you  create  trinity  :
+url   vies   template
+.  add url  to    main  urls
