@@ -101,3 +101,18 @@ def    new(request):
 .  then  in order to   validate  you  create  trinity  :
 url   vies   template
 .  add url  to    main  urls
+
+
+
+......delete  function   : 
+. add  url   to  template  <a href="{% url 'delete' item.id %}" > Delete </a>
+. create   view  :
+
+def detail(request, pk):
+    item = get_object_or_404(Item, pk=pk)
+    return render(request, 'detail.html', {'item': item})
+
+
+
+...url   path 
+  path('<int:pk>/delete/', delete, name='delete'),

@@ -2,5 +2,32 @@
 {% block   title %}dash  board {% endblock %}
 {% block  content%}
 
-dashboard  page 
+
+
+<div class="flex-grow container mx-auto my-8 text-center">
+
+    <!-- Categories as rows -->
+    
+    <!-- Items as independent grid -->
+    <h2 class="text-4xl font-bold mb-4">dashboard</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {% for item in items %}
+            <div class="bg-gray-100 p-4 shadow-md">
+                <img src="{{ item.image.url }}" alt="{{ item.name }}" class="mb-4" style="width: auto ; height: 200px ;  object-fit: cover">
+                <a href="{% url 'detail' item.id %}" class="text-lg font-semibold" style="color: black;">
+                    {{ item.name }}
+                </a>
+                <a href="{% url 'delete' item.id %}" class="inline-block px-3 py-1 text-base font-semibold text-white bg-red-500 rounded">
+                    Delete
+                </a>
+                
+                
+                <p class="text-gray-600">{{ item.description }}</p>
+                <p class="text-green-600 font-bold">{{ item.price }}</p>
+            </div>
+        {% endfor %}
+    </div>
+
+</div>
 {%  endblock %}
+
