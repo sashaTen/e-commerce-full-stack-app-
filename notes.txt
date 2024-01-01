@@ -116,3 +116,18 @@ def detail(request, pk):
 
 ...url   path 
   path('<int:pk>/delete/', delete, name='delete'),
+
+
+
+
+........how to   allow   users to   edit   item :
+. create  form  that  works  with   model  you   need 
+. create   views  function  that   finds   item and  calls the   
+form  to    edit 
+.  create   url   path   for  it   
+.  create  url   in   template
+.   url   in   template    gets the  item's   id   
+and  goes  to   special  url   
+ then  it  gives   that   special url the   id  and  then 
+ that  special  url    calls  view  function  and   passes   id  to   it 
+ 

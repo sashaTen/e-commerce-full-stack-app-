@@ -8,7 +8,7 @@ urlpatterns = [
     path('<int:pk>/', detail, name='detail'),
     path('/<int:pk>/', category, name='category'),
     path('new/' ,    new    ,     name='new'),
-    path('/<int:pk>/edit/', edit, name='edit'),
+    path('/edit/<int:pk>/', edit, name='edit'),
     
     # ... other URL patterns if any
 ]
