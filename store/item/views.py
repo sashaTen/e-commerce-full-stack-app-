@@ -1,7 +1,7 @@
 from django.shortcuts import render  ,get_object_or_404  , redirect
 from .models import Category, Item
 from   django.contrib.auth.decorators   import login_required
-from    .forms  import    NewItemForm
+from    .forms  import    NewItemForm ,    EditItem
 
 
 def index_item(request):
@@ -44,5 +44,22 @@ def    new(request):
             return  redirect('detail'  ,  pk=item.id)
     form   =   NewItemForm
     return   render(request ,    'form.html' ,  {'form' : form})
+
+
+
+
+
+@login_required
+def edit(request, pk):  # Add 'pk' as a parameter
+    item = get_object_or_404(Item, pk=pk, created_by=request.user)
+
+    if request.method == 'POST':
+        form = EditItem(request.POST, request.FILES, instance=item)
+        if form.is_valid():
+            form.save()  # Use the form instance to save the changes
+            return redirect('detail', pk=item.id)
+
+    form = EditItem(instance=item)  # Pass the 'item' instance to the form
+    return render(request, 'form.html', {'form': form})
 
 
