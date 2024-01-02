@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block   title %}item search{% endblock %}
+{% block  content%}
+<form method="get" action="{% url 'item_search' %}">
+    {{ form.as_p }}
+    <button type="submit">Search</button>
+</form>
+
+{% for item in items %}
+<div class="bg-gray-100 p-4 shadow-md">
+    <img src="{{ item.image.url }}" alt="{{ item.name }}" class="mb-4" style="width: auto ; height: 200px ;  object-fit: cover">
+    <a href="{% url 'detail' item.id %}" class="text-lg font-semibold" style="color: black;">
+        {{ item.name }}
+    </a>
+    <p class="text-gray-600">{{ item.description }}</p>
+    <p class="text-green-600 font-bold">{{ item.price }}</p>
+</div>
+{% endfor %}  
+{%  endblock %}

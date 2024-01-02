@@ -1,7 +1,7 @@
 from django.shortcuts import render  ,get_object_or_404  , redirect
 from .models import Category, Item
 from   django.contrib.auth.decorators   import login_required
-from    .forms  import    NewItemForm ,    EditItem
+from    .forms  import    NewItemForm ,    EditItem ,   ItemSearchForm
 
 
 def index_item(request):
@@ -61,5 +61,24 @@ def edit(request, pk):  # Add 'pk' as a parameter
 
     form = EditItem(instance=item)  # Pass the 'item' instance to the form
     return render(request, 'form.html', {'form': form})
+
+
+
+
+def    item_search(request):
+    if  request.method ==   'GET':
+        form    =   ItemSearchForm(request.GET)
+        if   form.is_valid():
+            search_query =    form.cleaned_data['search_query']
+            items =     Item.objects.filter(name__icontains  = search_query)
+        else :
+            items   =   Item.objects.all()    
+    else   : 
+        form  =     ItemSearchForm()
+        items =     Item.objects.all()
+
+    return   render(request ,   'item_search.html'  ,  {'form'  : form , 'items' :   items})            
+
+
 
 
