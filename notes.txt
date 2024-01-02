@@ -131,3 +131,10 @@ and  goes  to   special  url
  then  it  gives   that   special url the   id  and  then 
  that  special  url    calls  view  function  and   passes   id  to   it 
  
+.....how    to  build the   search   : 
+the   url   pattern   "search "
+calls the  function   in  views   which 
+then   gets   input    query from the search  form 
+and then   finds    object  of item  based  on   query   from  form
+then   you  put  it   in  context   of  template
+and    thats  it ...  
