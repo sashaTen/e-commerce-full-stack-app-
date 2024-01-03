@@ -138,3 +138,12 @@ then   gets   input    query from the search  form
 and then   finds    object  of item  based  on   query   from  form
 then   you  put  it   in  context   of  template
 and    thats  it ...  
+
+
+
+....now the    category   page    shows   items    
+that   belong to   that    category:
+..  url   href    refers  to   name  of   function 
+..  in  views   
+items =     item.bojects .filter(caategory   =  category_object)
+then   pass  to   template 
