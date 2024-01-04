@@ -147,3 +147,8 @@ that   belong to   that    category:
 ..  in  views   
 items =     item.bojects .filter(caategory   =  category_object)
 then   pass  to   template 
+
+
+
+
+....add links   for  search  and  dashboard
