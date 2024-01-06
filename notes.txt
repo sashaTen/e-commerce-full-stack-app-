@@ -154,3 +154,21 @@ then   pass  to   template
 ....add links   for  search  and  dashboard
 
 ...nedd   github  check
+
+
+
+.....how to  createt the   comment  section   under  the    item  section :
+
+.........
+go to   chatgpt  and then    prompt  this    : 
+i am  building the   django   app  and  i want  users   to  be  able    to  leave the  comments  about the  product  item   in the  detail  page  
+
+also   if result  is    kind  of   strange   go  
+directly to   dialog    of    chatgpt  called   : 
+"  Django Product Comments "
+
+
+
+
+
+
