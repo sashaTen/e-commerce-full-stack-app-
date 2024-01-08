@@ -1,6 +1,18 @@
-{% extends "base.html" %}
-{% block   title %}comment{% endblock %}
-{% block  content%}
-comment
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>{{ item.name }}</h1>
     
-{%  endblock %}
+    <!-- Display existing comments -->
+    {% for comment in comments %}
+        <p>{{ comment.user.username }} - {{ comment.timestamp }}: {{ comment.text }}</p>
+    {% endfor %}
+
+    <!-- Comment form -->
+    <h3>Leave a Comment:</h3>
+    <form method="post" action="{% url 'comment' pk=item.id %}">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Submit</button>
+    </form>
+{% endblock %}

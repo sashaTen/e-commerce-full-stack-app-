@@ -2,6 +2,7 @@ from django.shortcuts import render  ,get_object_or_404  , redirect
 from .models import Category, Item
 from   django.contrib.auth.decorators   import login_required
 from    .forms  import    NewItemForm ,    EditItem ,   ItemSearchForm
+from comments.models    import   CommentModel
 
 
 def index_item(request):
@@ -19,10 +20,11 @@ def index_item(request):
     return render(request, 'item.html', context)
 
 
-
 def detail(request, pk):
     item = get_object_or_404(Item, pk=pk)
-    return render(request, 'detail.html', {'item': item})
+    comments = CommentModel.objects.filter(item=item)
+    return render(request, 'detail.html', {'item': item, 'comments': comments})
+
 
 
 

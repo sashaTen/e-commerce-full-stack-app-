@@ -12,9 +12,19 @@
             <p class="text-green-600 font-bold">{{ item.price }}</p>
             <!-- HTML -->
 <a href="{% url 'edit' item.id %}" class="bg-green-500 text-white py-2 px-4 rounded hover:bg-blue-500 transition duration-300 ease-in-out">Edit Item</a>
-
+<a href="{% url 'comment'  item.id %}" class="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-500 transition duration-300 ease-in-out"><button>Leave a Comment</button></a>
         </div>
         <!-- Add more grid items if needed for additional details -->
     </div>
 </div>
+<h2>{{ item.name }}</h2>
+
+<!-- Display existing comments -->
+<div>
+    <h3>Comments:</h3>
+    {% for comment in comments %}
+        <p>{{ comment.user.username }} - {{ comment.timestamp }}<br>{{ comment.text }}</p>
+    {% endfor %}
+</div>
+
 {%  endblock %}
