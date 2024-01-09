@@ -1,0 +1,113 @@
+BEGIN   : 
+
+What is the Internet?
+
+how does the web work?
+
+What is HTTP and how it evolves?
+
+Learn domains and Hosting
+
+HTML
+
+CSS
+
+JavaScript
+
+Bootstrap
+
+Frontend Framework
+
+*General Knowledge:
+terminal 
+os 
+proccess  management 
+threads   and  concurrency  
+
+*chatgpt  :
+ concepts you should learn:
+
+Programming Languages:
+
+Proficiency in at least one backend programming language, such as Python, Java, Ruby, or Node.js.
+Understanding of asynchronous programming and its importance, especially in handling concurrent requests.
+Web Servers and APIs:
+
+Knowledge of web servers (e.g., Apache, Nginx) and their configurations.
+Understanding of building and consuming APIs (Application Programming Interfaces).
+Databases:
+
+Relational databases (e.g., MySQL, PostgreSQL) and NoSQL databases (e.g., MongoDB, Cassandra).
+Database design, normalization, and optimization.
+SQL and query optimization.
+Server-Side Frameworks:
+
+Familiarity with server-side frameworks like Django (Python),
+ Flask (Python), Spring (Java), Express (Node.js), or Ruby on Rails (Ruby).
+Authentication and Authorization:
+
+Implementing secure user authentication and authorization mechanisms.
+Knowledge of OAuth, JWT (JSON Web Tokens), and other authentication protocols.
+Version Control:
+
+Proficiency with version control systems like Git.
+Understanding of branching strategies and pull requests.
+Testing:
+
+Writing unit tests, integration tests, and end-to-end tests.
+Familiarity with testing frameworks like JUnit, pytest, or Mocha.
+Concurrency and Parallelism:
+
+Handling concurrent requests and ensuring thread safety.
+Knowledge of concurrency models and parallel processing.
+Caching:
+
+Implementing caching strategies to optimize performance.
+Understanding of caching mechanisms like Redis or Memcached.
+Message Queues:
+
+Knowledge of message queuing systems like RabbitMQ or Apache Kafka.
+Implementing asynchronous communication between services.
+RESTful APIs and GraphQL:
+
+Designing and building RESTful APIs or GraphQL APIs.
+Understanding principles of REST and GraphQL.
+Security:
+
+Awareness of common security vulnerabilities
+ (e.g., SQL injection, cross-site scripting) and best practices for securing backend systems.
+Knowledge of SSL/TLS and encryption.
+Containerization and Orchestration:
+
+Understanding containerization with Docker.
+Knowledge of container orchestration tools like Kubernetes.
+Continuous Integration and Deployment (CI/CD):
+
+Setting up and using CI/CD pipelines for automated testing and deployment.
+Tools like Jenkins, Travis CI, or GitLab CI.
+Monitoring and Logging:
+
+Implementing logging for debugging and monitoring purposes.
+Using monitoring tools like Prometheus, Grafana, or ELK stack.
+Documentation:
+
+Writing clear and comprehensive documentation for code and APIs.
+Using tools like Swagger or API Blueprint.
+Scalability:
+
+Designing scalable architectures to handle growing user bases.
+Understanding load balancing and horizontal scaling.
+Networking Concepts:
+
+Basics of networking, including protocols (HTTP, TCP/IP), DNS, and firewalls.
+Agile Methodologies:
+
+Familiarity with Agile development methodologies, such as Scrum or Kanban.
+Working collaboratively in cross-functional teams.
+Soft Skills:
+
+Effective communication skills.
+Problem-solving and troubleshooting abilities.
+Collaboration and teamwork.
+Continuous learning and staying updated with industry trends are also essential for a backend engineer.
+ Regularly exploring new technologies and best practices will contribute to your growth in this field.
