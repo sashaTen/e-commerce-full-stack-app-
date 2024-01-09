@@ -200,7 +200,7 @@ https://masteringbackend.com/posts/backend-development
         *Document APIs clearly to facilitate integration with third-party services or mobile applications.
 
 
-..e-commerce    ML  and   SLM 
+..e-commerce    ML (traditional with   sklearn ) and   SLM 
 
 
 .. software   enginnering /  mlops / 
