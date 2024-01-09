@@ -167,6 +167,44 @@ also   if result  is    kind  of   strange   go
 directly to   dialog    of    chatgpt  called   : 
 "  Django Product Comments "
 
+...........
+
+FURTHER  STEPS : 
+
+-----------
+
+.
+..recall   and  repeat  all   concepts   you  learned
+.can  you   do  code  review  ?   can   you  review   my  code  and say 
+- how   to   improve it  and  how to   write   cleaner and   better  and more  scalable   code  ? 
+
+..backend  concepts
+https://masteringbackend.com/posts/backend-development
+
+.. cs  50   - comp sci/web/ai  
+..database  and  sql   :Database Schema:
+
+        *Design a well-structured database schema to store essential data such as users, products, orders, and transactions.
+        *Use relationships (e.g., one-to-many, many-to-many) to connect related entities. 
+..increase  the  complexity  later :
+        
+        * improve   profiles
+        * search   filters 
+        * ratings   add to    items 
+        * orders 
+        * better  design
+        
+.APIs:
+
+        *Design RESTful APIs to enable communication between the frontend and backend.
+        *Document APIs clearly to facilitate integration with third-party services or mobile applications.
+
+
+..e-commerce    ML  and   SLM 
+
+
+.. software   enginnering /  mlops / 
+.. Software Design & Architecture 
 
 
 
