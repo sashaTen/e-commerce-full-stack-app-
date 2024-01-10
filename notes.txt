@@ -206,7 +206,7 @@ https://masteringbackend.com/posts/backend-development
 .. software   enginnering /  mlops / 
 .. Software Design & Architecture 
 
-
+.be carefull  with   git
 
 
 
