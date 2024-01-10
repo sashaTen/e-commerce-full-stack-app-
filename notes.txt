@@ -187,7 +187,7 @@ https://masteringbackend.com/posts/backend-development
         *Design a well-structured database schema to store essential data such as users, products, orders, and transactions.
         *Use relationships (e.g., one-to-many, many-to-many) to connect related entities. 
 ..increase  the  complexity  later :
-        
+        * improve  site   logic  and   styling  a little 
         * improve   profiles
         * search   filters 
         * ratings   add to    items 
