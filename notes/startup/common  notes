@@ -1,0 +1,78 @@
+look   fo target   audience  .
+how to    find   problems   : 
+“How do I”
+“How do you”
+“Sucks”
+“Can’t seem to”     -  keywords   on  internet   .  
+
+look  for   existing   solutions.
+listen   deeply .  dont   check   your    hypotheses  only   but   also   listen 
+and   try to  generate   hypotheses based  on  them.
+
+
+...production    level   code  : 
+the  code  has  to   be   :
+understandable    
+scalable 
+so   rules   :
+1  good   names   
+2 class  -  noun
+3 function -   verb
+4 searchable 
+5 dry
+6 solution domain   name  and   not  algorithm  name  or  cs terminology
+7 functions   have to  be  small
+8 max   3   aruguments   in function    
+9 too   much  of  comments  is   a bad thing
+10 keep   your  data   private 
+11 error  handling
+12 security  
+13 make   classes  small
+14  make   modules   independable  (isolation  of   changes )
+
+***
+development process : planning, design, coding, testing, and deployment.
+A software development project team requires a project manager, a business analyst, UX and UI designers, front-end and back-end developers, QA and DevOps engineers. Depending on the project’s nature, additional talents can be required, e.g., data scientists, 3D designers.
+
+Once I wrote down all the features I would want to make the experience truly unique, I set out to finalise a tech stack. I needed the following attributes:
+
+Easy to Scale and Deploy
+A Good ORM with a strong API and support for formatted output on Raw Queries.
+React on the frontend (it’s 2021 or 2022 by the time you read this)
+Excellent SEO Support
+PWA Support
+Admin tools that were served separately from the main website
+Social Authentication
+GitHub Integration so that users can link their repositories.
+For each requirement I put together a list of possible technologies/frameworks.
+
+The Stack
+Frontend: Next.js
+Backend: Express.js
+Database: PostgreSQL with Sequelize ORM
+Admin Tools: react-admin
+DevOps: GitHub Actions, Vercel CLI and Docker
+Hosting:
+AWS EC2 (Backend)
+Vercel (Both Frontends)
+
+
+........
+
+Designing and Prototypes
+Developing
+Synchronization
+Testing
+Launching
+
+
+..https://www.scnsoft.com/software-development/build-a-software
+Key 8 steps to software development
+Create a requirements specification.
+Prepare a project plan.
+Design UX and UI.
+Architect the software.
+Code the solution.
+Establish integrations.
+Run rigorous testing.
+Set the ready solution live.
