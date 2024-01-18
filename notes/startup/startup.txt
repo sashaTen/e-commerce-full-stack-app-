@@ -1,0 +1,20 @@
+once   you   have    foundation   (MVP /PROJECT)
+then     filter  and   implement   knowledges  that   you  collected  over 
+long    period  in  notes   like the   snowball  
+
+.......
+
+overall    plan   : 
+slm   sentiment into  app 
+research    slm 
+learn   how to    write   good  code 
+and  database   design and basics of  mlops and  devops
+........
+
+
+starting   business  is  like the  research
+you  find    problem   then  analysse    solutions
+then  check  metrics  and   benchmarks  
+and then   experemnt  and   implement 
+your    solution 
+............
