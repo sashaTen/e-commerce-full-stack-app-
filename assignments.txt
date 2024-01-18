@@ -1,0 +1,9 @@
+.1. Market Research and Planning
+   Analyze existing e-commerce platforms operating in the post-Soviet region.
+   Identify gaps or opportunities where your platform can provide unique value.
+   after  that   develop    your vision  of  how  your   app   has  to look  like.  
+.2. slm sentiment   analysis  project 
+   do not read   in very  depth   just   try to   see  the   principles  of 
+   how   researhers   make  contributions  and  aspects  that  they are working on 
+   .  not   only  accuracy  for  example  but also the aspect   of reasoning that   influences the 
+   sentiment analysis.

@@ -1,1 +1,5 @@
 build  app the   way  easy to   make  changes .
+https://milkov.tech/assets/psd.pdf
+https://www.halvorsen.blog/documents/programming/software_engineering/resources/Software%20Development.pdf
+https://engineering.futureuniversity.com/BOOKS%20FOR%20IT/Software-Engineering-9th-Edition-by-Ian-Sommerville.pdf
+https://www.vssut.ac.in/lecture_notes/lecture1428551142.pdf
