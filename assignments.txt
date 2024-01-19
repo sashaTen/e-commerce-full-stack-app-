@@ -9,4 +9,9 @@
    sentiment analysis.   
 
 .3. read   papers   related  to   current  methods 
- of   slm   for  sentiment analysis
+ of slm    sentiment analysis:
+ there   are  no  too  many   papers   related to   the  
+exactly  that   topic   
+so    maybe  it  is better  to  try  to  read   
+llms  and    sentiment  and then try  to transfer those to  slm's .   
+so the   the   keywords   :   sentiment  analysis/  llms  and  sentiment /   slms .
