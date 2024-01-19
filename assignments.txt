@@ -6,4 +6,7 @@
    do not read   in very  depth   just   try to   see  the   principles  of 
    how   researhers   make  contributions  and  aspects  that  they are working on 
    .  not   only  accuracy  for  example  but also the aspect   of reasoning that   influences the 
-   sentiment analysis.
+   sentiment analysis.   
+
+.3. read   papers   related  to   current  methods 
+ of   slm   for  sentiment analysis
