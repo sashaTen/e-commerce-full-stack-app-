@@ -1,0 +1,20 @@
+TinyGSM: achieving > 80% on GSM8k :
+
+* how  the   good datasets  arethe  key to  the imporoving the reasoning of SLMs
+*TinyGSM  is the  dataset  of the high school math   with   python  solutions  generated  by the gpt 3.5
+*their  approach    combines  the  TinyGSM  dataset  with verifier
+*GSM8K  is the   golden    benchmark    for that  project 
+* it  is   idea  to    look  for the   other   reasoning   techniques like  PoTD 
+CoT  and   ecot and then    maybe  find   the  way  to   combine  them   like the    mix of thought  which 
+combines   several   datasets   into   one.
+*Phi-1.5-tiny 125M+125M
+code verify48@1
+68.9
+Phi-1.5-small 350M+350M 71.3
+Phi-1.5 1.3B+1.3B 81.5
+
+*  my  plan  is   to  :
+1 reproduce the paper   of   reasoning
+2 experement  a lot 
+3 keep   reading    many  papers   both    deeply  and   surface things 
+
