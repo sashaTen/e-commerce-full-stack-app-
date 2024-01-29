@@ -1,0 +1,7 @@
+1    how to   choose the  right   model   for   your   project? 
+choose the   task   for ex  :    bart is   good   for QA(seq-2-seq)  and   bert  is   
+good for the   NER  / SENTIMENT  . gpt  is good   for the genration 
+
+.........
+
+

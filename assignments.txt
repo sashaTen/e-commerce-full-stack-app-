@@ -1,17 +1,2 @@
-.1. Market Research and Planning
-   Analyze existing e-commerce platforms operating in the post-Soviet region.
-   Identify gaps or opportunities where your platform can provide unique value.
-   after  that   develop    your vision  of  how  your   app   has  to look  like.  
-.2. slm sentiment   analysis  project 
-   do not read   in very  depth   just   try to   see  the   principles  of 
-   how   researhers   make  contributions  and  aspects  that  they are working on 
-   .  not   only  accuracy  for  example  but also the aspect   of reasoning that   influences the 
-   sentiment analysis.   
-
-.3. read   papers   related  to   current  methods 
- of slm    sentiment analysis:
- there   are  no  too  many   papers   related to   the  
-exactly  that   topic   
-so    maybe  it  is better  to  try  to  read   
-llms  and    sentiment  and then try  to transfer those to  slm's .   
-so the   the   keywords   :   sentiment  analysis/  llms  and  sentiment /   slms .
+https://skimai.com/fine-tuning-bert-for-sentiment-analysis/   
+https://github.com/ajayshewale/Sentiment-Analysis-of-Text-Data-Tweets-
