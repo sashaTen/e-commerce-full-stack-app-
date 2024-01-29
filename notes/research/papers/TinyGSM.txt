@@ -14,7 +14,13 @@ Phi-1.5-small 350M+350M 71.3
 Phi-1.5 1.3B+1.3B 81.5
 
 *  my  plan  is   to  :
+0 from   zero  to   bert 
 1 reproduce the paper   of   reasoning
 2 experement  a lot 
 3 keep   reading    many  papers   both    deeply  and   surface things 
 
+read   : 
+Topologies of Reasoning: Demystifying
+Chains, Trees, and Graphs of Thoughts
+
+https://paperswithcode.com/paper/plasma-making-small-language-models-better#code
