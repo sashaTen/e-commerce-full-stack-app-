@@ -1,0 +1,51 @@
+* llms  are  diffcult  and   they   put  llms  math  reasoning   into   slm
+* novel  technique =  equation  of   thought distillation
+  they construc dataset   and then   fine tune slm . the datasset    looks  like 
+  equation based   representation. 
+* mix  thought distillation  is their   framework  for  enhancing the perfomance.
+* the   dataset   consists  of    sevral thought proccesses  
+* Yet, a notable gap persists in mathematical problem-solving
+*(EoTD), a framework for the mathematical reasoning of SLMs.
+* they prompt   llm  with EotD and then  check  it  with  solver 
+   so the dataset   is   clean. then  fine tune slm on it 
+* they   have the   rivals  such  as   programm of thought or   CoT .
+* MID (mix of   thought  distillation)  is combines  the  3  :CoTD, PoTD, and EoTD datasets
+into a comprehensive MTD dataset for fine-tuning
+SLMs. 
+* they   tested   it   in   codeT5   model  on  four  math   datasets 
+* GSM8K (is a dataset of 8,500 high-quality, grade-school math word problems created by human problem writers. )
+*Models #Params GSM8K ASDiv SVAMP MultiArith AVG  experements : 
+  GPT-4 (OpenAI, 2023) - 92.0 91.3 93.1 - 92.13
+  Llama-2 (Touvron et al., 2023b) 7B 13.3 50.7 38.0 - 34
+  fine-tuned :0.25B 13.4 20.9 14.2 29.7 19.55
+*Our fine-tuned Small Language Models  :
+   CodeT5-Small 0.06B 1.1 0.3 0.2 0.6 0.55
+(-) EoTD 18.87 29.24 31.5 24.66 26.06
+(-) MTD 33.58 49.09 42.8 67.83 48.14
+CodeT5-Base 0.22B 0.8 0.2 0.0 0.0 0.25
+(-) EoTD 27.21 38.26 38.8 41.66 36.48
+(-) MTD 40.63 51.66 48.8 81 55.52
+CodeT5-Large 0.77B 2.9 3.6 0.0 0.0 1.62
+(-) EoTD 33.13 44.03 46.1 57.33 45.14
+(-) MTD 42.45 52.81 49.59 85.5 57.58
+
+
+We use EoTD and MTD to fine-tune SLMs, and evaluate them on four
+mathematical reasoning datasets, i.e., GSM8K, ASDiv, SVAMP, and MultiArith. The experiment results show that
+EoTD can effectively improve SLMs’ reasoning performance, and MTD makes SLMs achieve SOTA reasoning
+performance.
+
+
+go  for    keywords  such  as   :    
+distillation 
+..
+*they  use  prompting  technique  in order  to  get the 
+best    answer  
+
+
+...
+maybe  i  should  find the thing   that   big   models are  good at 
+and then  teach   smaller   ones ..
+
+
+
