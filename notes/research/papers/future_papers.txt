@@ -1,0 +1,57 @@
+Improving Small Language Models on PubMedQA via
+Generative Data Augmentation
+Zhen Guo1,*
+, Yanwei Wang1
+, Peiqi Wang1
+and Shangdi Yu1
+
+
+
+Topologies of Reasoning: Demystifying
+Chains, Trees, and Graphs of Thoughts
+Maciej Besta1†
+, Florim Memedi1
+, Zhenyu Zhang1
+, Robert Gerstenberger1
+, Nils Blach1
+,
+Piotr Nyczyk2
+, Marcin Copik1
+, Grzegorz Kwasniewski ´
+1
+, Jurgen M ¨ uller ¨
+3
+, Lukas Gianinazzi1
+,
+Ales Kubicek1
+, Hubert Niewiadomski2
+, Onur Mutlu1
+, Torsten Hoefler1
+1ETH Zurich 2Cledar 3BASF SE
+
+
+
+
+PlaSma: Making Small Language Models Better Procedural Knowledge Models for (Counterfactual) Planning (there  is  code )
+
+Orca 2: Teaching Small Language Models
+How to Reason
+
+
+SELF-CONSISTENCY IMPROVES CHAIN OF THOUGHT
+REASONING IN LANGUAGE MODELS
+
+
+FinQA: A Dataset of Numerical Reasoning over Financial Data
+
+A Novel DeBERTa-based Model for Financial Question Answering Task
+
+A Robustly Optimized Long Text to Math Models for Numerical Reasoning On FinQA
+
+Numerical Reasoning for Financial Reports
+
+DocFinQA: A Long-Context Financial Reasoning Dataset
+
+TAT-LLM: A Specialized Language Model for Discrete Reasoning over Tabular and Textual Data
+
+Program of Thoughts Prompting: Disentangling Computation from Reasoning for Numerical Reasoning Tasks
