@@ -1,0 +1,52 @@
+thrpught   trial  and  errrors    learn   how to  do  it .  learn the  hard  way. no perfectionism
+do practice basics 
+do   projects get familiar with video  or  article and   analyse /tweak  / experement/ question./improve/trils and errors./always  ask  how to do differently
+ practically   you  need  to  learn   only  specific to your  case  things by doing with the   mindset   : you  always   keep  learning 
+ and  keep  doing .  fail   a  lot  and   also   learn   fast  from   analysing   
+your    work .
+keep  reading   in  order to  Generative  the   ideas  for  experements
+
+ Step 2: the   fundamentals  are   
+*keith  galli   video  
+*keras   tutorial
+*deep  learning   theory : 
+
+assemble ai    explain   : 
+https://www.youtube.com/watch?v=dccdadl90vs&list=PLcWfeUsAys2nPgh-gYRlexc6xvscdvHqX  
+TensorFlow 2.0 Complete Course
+https://www.tensorflow.org/tutorials
+Complete Natural Language Processing (NLP) Tutorial in Python! (with examples)   by  keith   galli: 
+  https://www.youtube.com/watch?v=M7SWr5xObkA   
+  
+  https://elitedatascience.com/keras-tutorial-deep-learning-in-python
+
+Step 6: NLP with transformers after   you  do  the     project   on   your  own  then   go   for the 
+breaking  down    and  working on  the   kaggle /  lm's   projects
+     
+https://www.analyticsvidhya.com/blog/2021/11/end-to-end-question-answering-system-using-nlp-and-squad-dataset/
+https://asperbrothers.com/blog/question-answering-python/      
+https://www.kaggle.com/code/arunmohan003/question-answering-using-bert
+https://www.kaggle.com/code/leomauro/nlp-document-retrieval-for-question-answering
+https://www.kaggle.com/code/lakshmiprasannamorla/question-answering-with-nlp
+
+Step 7: Build projects, keep learning, and stay current!
+
+
+
+then  reproduce  others  work  if   needed   
+then  experement
+
+
+try to  reproduce  others  research 
+tensorFlow, PyTorch, scikit-learn
+tools for   software  engineers  and   researchers 
+mlops 
+api 
+
+
+ 
+
+
+
+
+
