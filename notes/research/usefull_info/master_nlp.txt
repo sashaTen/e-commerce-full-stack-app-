@@ -22,6 +22,8 @@ Complete Natural Language Processing (NLP) Tutorial in Python! (with examples)  
 
 Step 6: NLP with transformers after   you  do  the     project   on   your  own  then   go   for the 
 breaking  down    and  working on  the   kaggle /  lm's   projects
+https://www.kdnuggets.com/7-steps-to-mastering-large-language-models-llms
+
      
 https://www.analyticsvidhya.com/blog/2021/11/end-to-end-question-answering-system-using-nlp-and-squad-dataset/
 https://asperbrothers.com/blog/question-answering-python/      
