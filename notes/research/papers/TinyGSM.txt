@@ -24,3 +24,15 @@ Topologies of Reasoning: Demystifying
 Chains, Trees, and Graphs of Thoughts
 
 https://paperswithcode.com/paper/plasma-making-small-language-models-better#code
+
+
+project    outline   : 
+1   objective 
+2   data   preparation
+3   train  test split 
+4   experement  with   architecture/layers 
+5   prediction  and  loss   function 
+6   model   compile  (optimizer/loss function/metrics)
+7   train (x , y)
+7   evaluate
+8   iterate   and    improve

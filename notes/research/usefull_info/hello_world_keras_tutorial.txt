@@ -1,0 +1,7 @@
+how to    choose    write    architecture   ? 
+how  to  know  how to   prepare the   input  data  ?
+how to  work   with   deep   learning   layers  ? 
+
+
+In the context of deep learning, "loss" refers to a numerical value that measures how well
+ (or poorly) a model's prediction aligns with the actual ground truth for a given example.
