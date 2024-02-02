@@ -1,3 +1,11 @@
 build asap    something  and then   just   improve  it .
 .. 
 
+project   structure   : 
+data   preparation 
+train /test    split
+model   and  layers   definition   
+loss   function 
+model   compilation   aka   hyperpaperameters  such   optimizers  and  loss  functions   
+model   fit and   train 
+model   evaluation   
