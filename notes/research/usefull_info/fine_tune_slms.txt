@@ -4,4 +4,29 @@ good for the   NER  / SENTIMENT  . gpt  is good   for the genration
 
 .........
 
+https://colab.research.google.com/github/huggingface/notebooks/blob/master/examples/question_answering.ipynb      
+keep  learning    from   this   .  try to   adapt   tiny  llama   for this 
+
+
+
+https://deci.ai/blog/fine-tune-llama-2-with-lora-for-question-answering/
+
+
+
+use   the   tinyllamacha     .  
+also   ttry to   play   with   smls   for   your   projects
+get  inspiration  and then  implement  them   
+
+
+
+
+learn the    huggingface   better 
+
+
+it  is  good  idea to  learn  how to  do  the   base  project   
+like   question   answering
+and   then    keep   learning new   techniques 
+like the   peft  and  reasoning   techniques  
+and    maybe  try  to    integrate    into the   project   
+or    play   with   it 
 
