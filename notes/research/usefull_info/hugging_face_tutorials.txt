@@ -1,0 +1,50 @@
+..1..pipeline can  inference  and   task   of   any  model  on  hub. 
+..2..you  have to  prepare   in the   format that   dataset looks   like 
+..3..encoder   models   are  good   for    understanding the   txt 
+..4..decoders  are good generators 
+..5..seq2seq   are  good   for  transforming input  into   output  format
+..6..attention   scores relationships   between  the  words   and   compares   
+and   lets   know the   machine  what  to    focus   on   
+..7..ERT is an architecture while bert-base-cased, 
+a set of weights trained by the Google team for the first release of BERT, is a checkpoint.
+However, one can say “the BERT model” and “the bert-base-cased model.”
+..8..huggingface  is    for   training   /loading/ saving  models 
+
+
+Behind the pipeline  : 
+..9..simple   pipeline  has   3   steps :
+tokenizer   for   convertsion 
+model   with    input  id's  and   logits 
+post  preproccess  which is    infrerence  in   natural  text  
+
+..10..preproccess   by tokenizer   must to  be  done the  way  the   data  for   pre-training  was
+preproccessed . AutoTokenizer class and its from_pretrained()  is  for that 
+.11..checkpoint = "distilbert-base-uncased-finetuned-sst-2-english"
+tokenizer = AutoTokenizer.from_pretrained(checkpoint)
+..12..below  is the   pytorch    sensors   pre -trained: 
+{
+    'input_ids': tensor([
+        [  101,  1045,  1005,  2310,  2042,  3403,  2005,  1037, 17662, 12172, 2607,  2026,  2878,  2166,  1012,   102],
+        [  101,  1045,  5223,  2023,  2061,  2172,   999,   102,     0,     0,     0,     0,     0,     0,     0,     0]
+    ]), 
+    'attention_mask': tensor([
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+    ])
+}
+
+
+..13..
+*Model (retrieve the hidden states)
+*ForCausalLM
+*ForMaskedLM
+*ForMultipleChoice
+*ForQuestionAnswering
+*ForSequenceClassification
+*ForTokenClassification
+and others 🤗
+
+..14..learn  from    docs:
+https://huggingface.co/learn/nlp-course/chapter1/1   
+
+..15..repeat   and   keep  learning 
