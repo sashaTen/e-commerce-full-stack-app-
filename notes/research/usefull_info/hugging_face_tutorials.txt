@@ -48,3 +48,7 @@ and others 🤗
 https://huggingface.co/learn/nlp-course/chapter1/1   
 
 ..15..repeat   and   keep  learning 
+..16..finish Behind the pipeline
+when    you learn   something    try to rebuild    every   learning  example   
+and  also  you  need to   have   hypotheses  for  each   example and  concept 
+and   always   keep   experementing   .  from   small  examples   to  more   complicated  ones.    
