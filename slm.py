@@ -1,13 +1,29 @@
-from   transformers    import   pipeline 
-classifier =   pipeline('sentiment-analysis')
-classifier([
-    'i  love   the   show   called    game  of thrones  even   dispite  the   bad   last   season' , 
-    'that  was   interesting   move to   sell    toxic   player  ,  so the  team  is   performing   well   now  '
-])
+from sklearn.datasets import load_iris
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.model_selection import train_test_split
 
-qa      =   pipeline('question-answering')
-qa({ "question" : 'when is best  time   to   invest ? ' ,  "context" : "there   definite   answer  that   one  size fits   all    .    it  depends  on  many  factors   such   as   your risk tolerance   and  desired  returns  and   many  more "})
+# Load the Iris dataset
+iris = load_iris()
+X = iris.data  # Features
+y = iris.target  # Target variable (species)
 
+# Split data into training and testing sets
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
+# Create a decision tree classifier with maximum depth of 3
+model = DecisionTreeClassifier(max_depth=3)
 
+# Train the model
+model.fit(X_train, y_train)
 
+# Make predictions on the test set
+y_pred = model.predict(X_test)
+
+# Evaluate the model's performance (accuracy)
+from sklearn.metrics import accuracy_score
+accuracy = accuracy_score(y_test, y_pred)
+print("Accuracy:", accuracy)
+
+# Visualize the decision tree (optional)
+from sklearn.tree import plot_tree
+plot_tree(model, feature_names=iris.feature_names)
