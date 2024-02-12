@@ -76,5 +76,13 @@ autoconfig.from_pretrained  -    it is   for loading  the config  file
 my_model.save_pretrained('model's  name')
 and  then   reload   it  and  use    with   : 
 from_pretrained('your   model')
+..25..  you  can   tokenize   txt  in  many   ways  
+..26..word   tokenizer  : 
+This works well for common languages like English
+We might need to handle contractions ("don't") or abbreviations ("e.g.") differently.
+..27..character  based    way  and    hibrid   way.
+..28..there  are  more   ways  for  preproccessing   used  by  different  models 
+like   bert  or    gpt
 
+..Handling multiple sequences..
 
