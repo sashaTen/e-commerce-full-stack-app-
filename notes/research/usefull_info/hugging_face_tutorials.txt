@@ -86,3 +86,58 @@ like   bert  or    gpt
 
 ..Handling multiple sequences..
 
+fine tuning : Processing the data
+
+..29..i   need to  recall  the   knowledges  about the   backend   so     i   would  not  forget.  
+..30..simple   recipe  of  hwo to   train the  model  aka  fine tune :
+*load  the checkpoint
+*load  the  model 
+*load   tokenizers
+*preparee  the   dataset  with   tokenizers
+*define    loss  and    optimizer   
+*evaluate
+..31..later   you    will   to  do   pipeline  and fine  tuning   project 
+..32..batch  dictionary  is   keys   id's attention masks , labels  and   types   of   id's 
+..33..remember  that   you   only   40   dayse    left  and   your goal  is  to   be   junior 
+ml  engineer   and    start  experementing   and that's   it   .  
+only  then    you    should    thinking  about  bikding   the   fintech   banking 
+..34..the   idea   of   success is   to research  and    define  your  smart   goals  for   each  day .
+..35..inputs = tokenizer("This is the first sentence.", "This is the second one")=
+'input_ids'
+'token_type_ids'
+'attention_mask'
+
+..36..you  have to   love   challenges  and   problems   
+..37..the  more  you  do   today the  less left  for  tommmorow
+..38..the   point  is   to  prepare   all  for   "trainer":
+from transformers import Trainer
+
+trainer = Trainer(
+    model,
+    training_args,
+    train_dataset=tokenized_datasets["train"],
+    eval_dataset=tokenized_datasets["validation"],
+    data_collator=data_collator,
+    tokenizer=tokenizer,
+)
+
+
+
+..39..you  will  never  knwo  all   so the   key  is to  learn  everyday  
+and  solve  problems   everyday and  pusshing    to  limits   
+..40..predictions = trainer.predict(tokenized_datasets["validation"])
+print(predictions.predictions.shape, predictions.label_ids.shape)    .  explain  please
+..41..I’m getting the same error in the colab notebook for the NLP Course: Lesson 3 - Fine-tuning model with the Trainer API. In order to get around it you can:
+
+Run pip install accelerate -U in a cell
+In the top menu click Runtime → Restart Runtime
+Do not rerun any cells with !pip install in them
+Rerun all the other code cells and you should be good to go!
+On a side note, be sure to turn on a GPU for this notebook by clicking Edit → Notebook Settings → GPU type - from the top menu. This was the next thing that got me : )
+
+
+
+
+
+
+

@@ -27,3 +27,23 @@ print("Accuracy:", accuracy)
 # Visualize the decision tree (optional)
 from sklearn.tree import plot_tree
 plot_tree(model, feature_names=iris.feature_names)
+
+
+
+
+
+from transformers import pipeline
+
+# Create a pipeline using the "question-answering" task and the desired model
+question_answering = pipeline(task="question-answering", model="sasha1keshten/finetune-BERT-squad")
+
+# Prepare the context and question
+context = "France is a country in Western Europe. Its capital is Paris."
+question = "What is the capital of France?"
+
+# Pass the context and question to the pipeline for analysis
+answer = question_answering(question=question, context=context)
+
+# Print the answer and its score
+print(f"Answer: {answer['answer']}")
+print(f"Score: {answer['score']}")
