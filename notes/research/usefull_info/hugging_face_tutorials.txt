@@ -136,6 +136,10 @@ Rerun all the other code cells and you should be good to go!
 On a side note, be sure to turn on a GPU for this notebook by clicking Edit → Notebook Settings → GPU type - from the top menu. This was the next thing that got me : )
 
 
+..42..how to write   scalable  code ?
+think   in   advance   will   this   solution   / proccess  
+take  place in  the  future   and then   write   function for  it    .  
+
 
 
 
