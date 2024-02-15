@@ -140,6 +140,44 @@ On a side note, be sure to turn on a GPU for this notebook by clicking Edit → 
 think   in   advance   will   this   solution   / proccess  
 take  place in  the  future   and then   write   function for  it    .  
 
+..43..how to learn   on the  go? :    when    you   encounter   new   concept    in the   example   try  to   really learn  it   
+learn  it  slowly   and  try  to   experrmtn    and practice  it 
+
+..44..the   nature   of   programming  is    just    writing   code  for    your   solution  
+and try  to   implement   other's   solutions/  code   and   then  workgin   and   tweaking the  code 
+untill   it   works   .
+..45..today    skip the   full  fine  tuning   and   go for   the  datsets  library  
+and then   go againg to   full  fine tuning .
+..46..dont  be  scared of   hard work   .  for  example   fintech    company   .  just   dive  in  and   do   .  
+ask    -  "how?"  and   not   "can  i  ?". 
+..47..study   like  this   :    once   you   understand   the  material    make   for  pratice 
+the   task and  do   this   task   ,  like  it s  homework  from   universuity
+..48..  you  not   only   to    push  the   model to the hub  but  also design the card  of the model
+..49..look   up for  the  data  analysis .txt file  where   you   will  find some   motivation   for the practice and  project.
+..50..maybe   you   also   should    be  interessted   in some   field  like the football   analytics 
+..51..just    learn    python  a little  again.  
+..53..you   will  have   the   chance   to  work   and  learn   python   by doing  simple    mini    data  analysis  projecys 
+from  the data_analysis.txt.
+or   maybe    hacking  or   crimes   . 
+..54..do  not   try  to  finish  .  enjoy the proccess and dont   run away .
+how to   preproccess  and  work    with  data  with  Datasets library    :
+*the library  is similar  to the   pandas   provides  a  lot  of  features : 
+*dataset.shuffle   or   dataset.select    you can   do   choose  the   small  portion    of  dataset 
+and  entire   data   for  the  experementing.
+*you clean  the  data   
+*add new  columns 
+*Dataset.map(): process each element in a dataset individually.
+*Dataset.unique() function to find the number of unique 
+*We can sort this new column with Dataset.sort() 
+* add new columns to a dataset is with the Dataset.add_column()
+* Dataset.filter() function to remove reviews that contain fewer than 30 words
+* %time before the line of code you wish to measure:
+*Dataset.map() and batched=True you can change the number of elements in your dataset
+*Datasets is designed to be interoperable with libraries such as Pandas, NumPy, PyTorch, TensorFlow, and JAX. 
+drug_dataset.set_format("pandas")
+drug_dataset.reset_format()
+*Arrow	Dataset.save_to_disk()
+*load_from_disk("drug-reviews")
 
 
 
