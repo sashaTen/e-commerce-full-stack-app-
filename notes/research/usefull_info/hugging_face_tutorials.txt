@@ -178,6 +178,47 @@ drug_dataset.set_format("pandas")
 drug_dataset.reset_format()
 *Arrow	Dataset.save_to_disk()
 *load_from_disk("drug-reviews")
+....big   data  and  the datasets   
+..55..By default, 🤗 Datasets will decompress the files needed to load a dataset.
+..56..A simple way to measure memory usage in Python is with the psutil library
+..57..import timeit - little speed test
+..58.. Datasets provides a streaming feature
+ that allows us to download and access elements on the fly, 
+ without needing to download the whole dataset. streaming=True
+
+..59..interleave_datasets() function that converts a list of IterableDataset objects into a single IterableDatase
+ useful when you’re trying to combine large datasets
+
+ so  i the  conclusion  when   you   will  work  with huge  dataset  rememeber that   datasets  can  deal 
+ with   big  data.
+
+ Creating your own dataset for ex:
+ created a dataset of GitHub    issues and comments from the 🤗 Datasets repository.
+ so  using   api's    you  also   can   create your   own  dataset .
+ ..60..Semantic search with FAISS
+....
+you  have  not  learned  the  dataset  library   well
+today   you will read the tokenizer intro  
+and  later    go  back  and  finish    those   chapters 
+....
+..61..the    key  of research   is   go  deeply  
+for  example  there  is   no   point   of  scratching the   surface 
+of   everything   and  instead  you do  like  this :
+1   research  about  qa   for finance 
+2   go  to  for   techniques   how to   improve  them like  
+fine  tuning
+3   go for  fine tuning  techniques  in  depth  
+4   if  you see that  there  are  some  research gaps 
+or  issues  with  techniques  try  to  invent   some that 
+covers  it .
+
+
+
+..62..how to train a new tokenizer on your own corpus of text using the ** Tokenizers** library.
+..63..You cannot use your own pretrained tokenizer for a pretrained model
+vocabulary for your tokenizer and the vocabulary of pretrained the model  are different.
+..64..Tokenizers's purpose: to translate text into data for model.
+..65..the  task  is   ti  understand   all   about  qa   code.
 
 
 
