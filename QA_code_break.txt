@@ -1,0 +1,30 @@
+...there   are many    types of   QA  like 
+generative 
+rule  based 
+knowledges based 
+info  retrieval 
+hybrid   QA (extractive+ generative)
+...other  classifiction  of  QA  :  
+Extractive: extract the answer from the given context.
+Abstractive: generate an answer from the context that correctly answers the question.
+...for  some   you need   and  for  some   not.
+...you   have   to   consider  which  type  of  QA  you need.
+...https://huggingface.co/docs/transformers/tasks/question_answering:
+here   you also   find   models fit  for QA task .
+...squad = load_dataset("squad", split="train[:5000]"):
+Start by loading a smaller subset
+...train  test   split 
+...squad["train"][0]:
+look at an example
+...preproccess
+...tokenizer = AutoTokenizer.from_pretrained("distilbert-base-uncased")
+ load a DistilBERT tokenizer 
+... truncation="only_second:
+To deal with longer sequences
+...return_offset_mapping=True:
+...you   have to   expereemnt   a  lot  with    code 
+and   concepts   in  it    .  let  bard  teach   you 
+practice it    .   this   is   how   you  learn  the   coding   part   
+and   how  to   work   with    text .
+...Now create a batch of examples using DefaultDataCollator.
+...learn the   basics  of    how to   train   model   using  the   pytorch.  
