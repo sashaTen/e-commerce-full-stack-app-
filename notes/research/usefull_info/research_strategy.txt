@@ -1,0 +1,41 @@
+Choosing relevant papers for your research on financial question answering (QA) reasoning with small language models (SLMs) requires a focused approach. Here's a strategy to help you navigate the vast amount of available literature:
+1. Start with core resources:
+
+FinQA Dataset: This dataset specifically focuses on numerical reasoning over financial data, making it highly relevant to your research. Explore papers that utilize or analyze the FinQA dataset for insights into SML performance and challenges in financial QA.
+
+Surveys and Reviews: Look for recent surveys or reviews on financial NLP or question answering with LLMs. These papers provide a comprehensive overview of the field, highlighting key research directions and identifying prominent works. Examples include: 
+
+"Beyond Classification: Financial Reasoning in State-of-the-Art Language Models" (Son et al., 2023)
+
+"Zero-Shot Question Answering over Financial Documents using Large Language Models" (Liu et al., 2023)
+
+2. Explore specific research areas:
+
+Prompting Techniques: As SMLs often require effective prompting for financial reasoning tasks, delve into research on prompt design strategies specifically for this domain.
+
+Reasoning Capabilities of SMLs: Investigate recent studies that analyze the reasoning abilities of SMLs in financial contexts. This will help you understand the current limitations and potential of these models for your research.
+
+Comparison with Large Language Models (LLMs): While your focus is on SMLs, understanding how LLMs perform in financial QA can provide valuable insights. Look for comparative studies that analyze the strengths and weaknesses of different model sizes in this domain.
+
+3. Leverage search engines and academic databases:
+
+Use keywords like "financial question answering," "small language models," "financial reasoning," "FinQA dataset," and "prompting techniques" in your search queries.
+
+Utilize academic databases like Google Scholar, ACM Digital Library, and arXiv to refine your search based on publication date, author, or specific journals relevant to NLP and financial computing.
+
+4. Follow prominent researchers and institutions:
+
+Identify leading researchers and institutions working in financial NLP and SMLs. Follow their publications and presentations to stay updated on the latest advancements.
+
+Attend conferences and workshops related to NLP and financial computing to network with experts and gain insights into ongoing research directions.
+
+Additional tips:
+
+Pay attention to the methodology and evaluation metrics used in the papers. This will help you assess the robustness and generalizability of the findings.
+
+Read the abstracts and introductions of papers first to quickly determine their relevance to your research topic.
+
+Don't hesitate to explore papers outside your immediate research area. They might offer valuable insights or complementary approaches that can inform your work.
+
+By following these steps and continuously refining your search strategy, you'll be well-equipped to identify relevant and impactful research papers that contribute to your exploration of financial QA reasoning with small language models. Remember, staying up-to-date 
+with the latest advancements in this rapidly evolving field is crucial for conducting successful research.
