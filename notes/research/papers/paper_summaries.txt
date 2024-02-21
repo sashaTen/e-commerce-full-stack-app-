@@ -190,3 +190,10 @@ go   further   .    but
 also   seek  for the ideas for  improvement.
 like    flaws  in   proccess   .   
 
+
+-just  do     QA  project 
+then   choose the   benchmark  
+for  reasonging.  
+then    create    your   own  data set  for it.
+and   just  keep  experementing 
+
