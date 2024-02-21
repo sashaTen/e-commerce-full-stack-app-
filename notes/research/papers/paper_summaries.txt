@@ -1,21 +1,33 @@
-"financial question answering," "small language models," "financial reasoning," "FinQA dataset,"   "reasoning  in   language  models". 
+"financial question answering," 
+"small language models," "financial reasoning," 
+"FinQA dataset,"   "reasoning  in   language  models". 
 
 ..........FINQA   :
-*the   problem  is   :   analyzys    automation   in  qa 
-*also the  reasonging   in  QA  is    veyr   simple 
+*the   problem  is   :   analyzys  
+  automation   in  qa 
+*also the  reasonging   in  QA  is   
+ veyr   simple 
 and  one  step.  
-* the   question   is  -    how this  proccess  can  be  dome  better   ? 
-*All you need to know about Question-Answering (QA) systems built using NLP: 
-QA systems use a variety of techniques, including natural language understanding, information retrieval,
+* the   question   is  -    how this 
+ proccess  can 
+ be  dome  better   ? 
+*All you need to know about Question-Answering (QA)
+ systems built using NLP: 
+QA systems use a variety of techniques, 
+including 
+natural language understanding, 
+information retrieval,
  and machine learning,
-  to extract the relevant information from a given text corpus
+  to extract the relevant information from a given 
+  text corpus
  and generate an answer to a user’s question.
 open  resources  and  closed  resource  types .
 
 --domain    based   QA  is  my  focus .
 https://www.unthinkable.co/blog/all-you-need-to-know-about-question-answering-qa-systems-built-using-nlp/
 *RAG  AND  IR   MECHANISMS 
-*The two main techniques for adaptation are fine-tuning and retrieval-augmented generation (RAG).
+*The two main techniques for adaptation are fine-tuning
+ and retrieval-augmented generation (RAG).
 Fine-Tuning Techniques and Methods:
 .full   fine tuning 
 .adapter  based 
@@ -26,16 +38,20 @@ Fine-Tuning Techniques and Methods:
 https://medium.com/@bijit211987/fine-tuning-and-rag-tailoring-language-models-to-your-needs-69ca9e1c2c70
 FinQANet (RoBERTa-large) 61.24 58.8
 
-........A Numerical Reasoning Question Answering System with Fine-grained
-Retriever and the Ensemble of Multiple Generators for FINQA
+........A Numerical Reasoning Question Answering
+ System with Fine-grained
+Retriever and the Ensemble of Multiple Generators
+ for FINQA
 
 69%
-*later    you  will  have to   analyse  the  dataset   
+*later    you  will  have to   analyse  the
+  dataset   
 as  well  as  to  read   paper    again .
 * test set in FinQA
 Competition.  that  is  the  goal  .
 *they  use   Ensemble   generators .
-*later     you  will  have to   read   paper   in  depth  so  
+*later     you  will  have to   read   paper   
+in  depth  so  
 you learn all the   prerequisites .
 -  maybe   you  can  for  the   Ensemble language  models :
 https://www.analyticsvidhya.com/blog/2018/06/comprehensive-guide-for-ensemble-models/
@@ -43,17 +59,29 @@ https://www.analyticsvidhya.com/blog/2018/06/comprehensive-guide-for-ensemble-mo
 
 
 ....................DeBERTa   for  finqa 
-We use the method based on DeBERTa pre-trained language model, with additional optimization methods including multimodel fusion, training set combination on this
-basis. We finally obtain an execution accuracy of 68.99 and a program accuracy of 64.53,
-. Existing Q&A systems are mainly divided into two
-mainstream categories, retrieval based Q&A systems and generation based Q&A systems.
-*The system used a pre-trained language model called DeBERTa as its foundation.
-To improve performance, the system employed additional techniques:
-Multimodel fusion: Combining information from different sources within the model.
-Training set combination: Using various datasets for training to enhance the system's knowledge and capabilities.
+We use the method based on DeBERTa pre-trained 
+language model, with additional optimization 
+methods including multimodel fusion, training 
+set combination on this
+basis. We finally obtain an execution accuracy
+ of 68.99 and a program accuracy of 64.53,
+. Existing Q&A systems are mainly divided into
+ two
+mainstream categories, retrieval based Q&A 
+systems and generation based Q&A systems.
+*The system used a pre-trained language model
+ called DeBERTa as its foundation.
+To improve performance, the system employed 
+additional techniques:
+Multimodel fusion: Combining information from 
+different sources within the model.
+Training set combination: Using various datasets
+ for training to enhance the system's 
+ knowledge and capabilities.
 
 *finally achieve the execution accuracy
-of 68.99 after fine-turning and optimization, and
+of 68.99 after fine-turning and optimization, 
+and
 win the fourth prize in the FinQA challenge
 
 *generally they  used  different   model  fusions  
@@ -62,10 +90,103 @@ win the fourth prize in the FinQA challenge
 ...............ELASTIC: Numerical Reasoning with
 Adaptive Symbolic Compiler
 
-numEricaL reASoning with adapTive symbolIc Compiler (ELASTIC) model,
-which is constituted of the RoBERTa as the Encoder and a Compiler with four
-modules: Reasoning Manager, Operator Generator, Operands Generator, and
+numEricaL reASoning with adapTive symbolIc 
+Compiler (ELASTIC) model,
+which is constituted of the RoBERTa as the
+ Encoder and a Compiler with four
+modules: Reasoning Manager, Operator Generator,
+ Operands Generator, and
 Memory Register:   
 68%    finqa  and    mathQA    
 it  is   domain    agnistic .
-...........Program of Thoughts Prompting: Disentangling Computation from Reasoning for Numerical Reasoning Tasks
+...........Program of Thoughts Prompting:
+ Disentangling Computation from Reasoning 
+ for Numerical Reasoning Tasks
+the  reasoning    expressesd  as the    
+code   of  python  
+is  more    efficient    than   CoT  .
+*in  context   learning 
+is  wheb the prompt  has the   examples  of  
+desired   outcome 
+.
+-go the offficial  github of  finqa.
+there  you   look  at  data  which is json.
+when  much time use it .
+-reaaongin   of   reasoning .
+...........
+ELASTIC's Approach:
+
+Separating steps: ELASTIC  
+
+breaks down the reasoning process into two parts:
+Operators: Identifying the 
+mathematical operations needed 
+(e.g., addition, subtraction, multiplication).
+Operands: Selecting the numbers 
+involved in the calculations.
+Domain agnostic: ELASTIC can handle 
+various types of problems and supports
+ diverse operators, making it adaptable
+  to different scenarios.
+Memory register: ELASTIC remembers
+ intermediate results from previous calculations
+ , allowing it to build upon them 
+ for solving more complex problems.
+
+ ...........A Robustly Optimized Long Text to Math Models for
+Numerical Reasoning On FinQA:
+y. In this paper, we present our
+approach to tackle the task objective by  
+developing models with different specialized 
+capabilities and fusing their strength. 
+Overall, our
+approach achieves the 1st place in FinQA 
+challenge, with 71.93% execution accuracy
+ and
+67.03% program accuracy.
+
+-for me it is  easier  to read paper than  for 
+someone   who  does  not  speak   english. 
+so  maybe  it  is   better  to  leanr 
+one   discipline  well   before  
+doing inter-discipline.
+
+*FinQA evaluates the result
+by two metrics, program accuracy and execution
+accuracy. Program correct means that the predicted
+program is logically identical to the ground truth.
+
+
+
+
+*How adversarial validation helps:
+Here's how it works:
+Combine the training and testing data into a single dataset.
+Label the samples from each set differently 
+(e.g., 0 for training, 1 for testing).
+Train a classifier to distinguish between 
+the samples from the two sets based on their features.
+Analyze the performance of the classifier.
+If the classifier performs poorly (cannot accurately 
+distinguish between training
+ and testing samples), it indicates 
+ that the data distributions are similar.
+  This is a good sign.
+Conversely, if the classifier performs well
+
+ (can easily distinguish between the sets), 
+ it suggests a significant difference in distributions,
+  requiring further action.
+
+-sometimes  proccess   looks  flawless
+but  looking  at   others   and  latest  
+innovations   you   will  realize  
+that   there  is  room   for 
+improvement.  
+
+-the  intuition  says  that    i  have to 
+build the   project    first   and then 
+go   further   .    but   
+also   seek  for the ideas for  improvement.
+like    flaws  in   proccess   .   
+
