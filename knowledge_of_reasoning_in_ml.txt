@@ -1,0 +1,73 @@
+reasoning is the act of thinking
+ about something logically and 
+ systematically in order to draw
+  a conclusion or make a decision.
+ Inference, evaluation of arguments,
+and logical conclusion-drawing 
+are all components of reasoning.
+
+..read  paper about financial  reasoning 
+reasoning  appears  in  models 
+bigger   than   100b. 
+
+you can   imrove  it   in  
+large  and  in  small  models.
+but  in   different   ways .
+
+..read  about improving reasoning in small language models 
+
+getting  the  data  of  reasoning
+for  training   is   hard 
+and  laos   it  is   limited
+to  domain   it  used   on .
+
+
+few shot examples   help.
+CoT  helps .
+divide  and   conquer  tehcniques . 
+you can  ecplore   the  context 
+for reasoning  or  
+the     task  like  planning.
+!!! maybe    asking  -'why?'   like  
+5 why's  for  the   deeper  question.
+
+!!  good   ideas    if  to read  latest
+papers  like  for   example  the 
+nulti agents  and  try to  use  for 
+improving  reasoning   somehow.
+
+substitution  of complex  numbers 
+and  expressions  wit  simpler .
+
+Reasoning-Enhanced Training and prompting 
+are  two    mostly used   tehcniques  . 
+
+t5   improved  reasoning
+after  fine  tuning   on  sql data.
+
+self   taught   reasoning. 
+..i got  to   learn  the  basis  of the 
+hugging face  models   and   what it   can .
+
+Specializing Smaller Language Models towards Multi-Step Reasoning
+Yao Fu, Hao Peng, Litu Ou, Ashish Sabharwal:
+
+larger
+than 100B have strong modeling power, but are
+spread on a large spectrum of tasks.
+we concentrate their
+capacity on a specific target task.
+multi-step math reasoning .
+
+prompting like  cot   does 
+not   improve reasoning.
+
+this  paper  is  for  cot  reasoning
+by  model  Specializing.
+
+i  dont   have to    read   only   reasoning
+related   paper    but   
+in  different   dierections 
+so  i see  the   gaps.   
+
+

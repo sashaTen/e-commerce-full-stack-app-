@@ -197,3 +197,14 @@ for  reasonging.
 then    create    your   own  data set  for it.
 and   just  keep  experementing 
 
+.......
+Teaching Small Language Models to Reason:
+*transfer   of  reasonging 
+via   knowledge   distillation.
+
+*fine tuning  the   small   with 
+CoT   of  big  one .
+
+GSM8K
+
+
