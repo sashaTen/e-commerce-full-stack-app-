@@ -48,26 +48,203 @@ after  fine  tuning   on  sql data.
 self   taught   reasoning. 
 ..i got  to   learn  the  basis  of the 
 hugging face  models   and   what it   can .
-
-Specializing Smaller Language Models towards Multi-Step Reasoning
+////////////////////////////////////////////
+Specializing Smaller Language Models 
+towards Multi-Step Reasoning
 Yao Fu, Hao Peng, Litu Ou, Ashish Sabharwal:
 
 larger
-than 100B have strong modeling power, but are
+than 100B have strong modeling 
+power, but are
 spread on a large spectrum of tasks.
 we concentrate their
 capacity on a specific target task.
 multi-step math reasoning .
-
+ paper addresses the problem of 
+ CoT reasoning for
+smaller models by model specialization.
 prompting like  cot   does 
 not   improve reasoning.
 
-this  paper  is  for  cot  reasoning
-by  model  Specializing.
+..
+Our approach is to fine-tune an 
+instruction-tuned model
+(FlanT5) by distilling chain-of-thought
+ reasoning paths of
+the GSM8K data from a large teacher
+ model 
+(GPT-3.5 codedavinci-002
+..
+earlier said  that   
+slms   trained  on the  cot 
+get  better   at  reasosing   
+but  that  was   across   seversl 
+  dimensions   
+now  the idea   that   if   focused  on 
+one   goal  that  ability   on the  goal  
+would   be   improved   a lot .
+...
 
-i  dont   have to    read   only   reasoning
-related   paper    but   
-in  different   dierections 
-so  i see  the   gaps.   
+even   llms    have    specializations   
+but they  still  can  perform    tasks
+  out   of their 
+domain ....
+
+instruction finetuning is  training 
+the model on
+ a dataset of instruction-output pairs.
+...
+OOD stands for "Out-of-Distribution.
+" It refers to data that significantly
+ deviates from the data a model was
+  trained on.
+
+In the context of your research on
+small language models, OOD data
+is essentially information 
+that the model hasn't seen before,
+or that falls outside the range
+of examples it was trained on 
+during instruction tuning.
+....
+ The problem here is how to generalize
+beyond the tuning data, as small models
+ may simply overfit
+the tuning distribution but struggle 
+to generalize when the
+distribution shifts
+.....
+Our approach of
+using data generated from code-davinci-002
+ to tune smaller
+FlanT5 can be viewed as either distillation
+....
+so  there   two  works    very   similar  
+to   what   they   have   done  
+and   they   different  cuz 
+1st   paper   did  not   focus  on the  
+domain  of  math   
+and the  second   paper   did   not 
+show   trade   off   of   
+generalization  and   did  learn  
+the   small   model.
+
+
+...
+!!!  there  some   domains  
+that   correlate  for  ex:
+math  and   financee.  
+biology  and  something .  
+and   if   you   train   
+in   one   .  for  ex.  t5   
+after  math   tuning is  
+going  to  perform   better 
+in  domain  of    finance .
+
+
+.....
+
+(MultiArith, ASDiv, 
+and SVAMP Wei et al.,
+2022b) to show the 
+model generalizes to OOD data.
+
+...
+
+In addition to the standard
+ finetuning setting where one
+  uses the question as the input
+   and
+use the [CoT, answer] pair as 
+the output .
+
+...
+!!!  next   paradigma  is  
+ai  to  learn   from   fewer
+examples  and   abstractions  
+.....
+
+
+s tuning with in-context 
+examples improves
+the model
+
+...
+
+
+then test the models in-context 
+learning and zero-shot
+generalization performance during
+ validation. 
+ ...
+
+
+In this work, we study the problem
+ of specializing smaller
+language models toward multi-step 
+reasoning using chainof-thought 
+prompting. We show that it is 
+indeed possible
+to concentrate the small models’ 
+ability from generic directions 
+
+to the target math reasoning task. 
+After specialization,
+we show that the model exhibits 
+a log-linear scaling curve
+where model performance increases 
+smoothly as model
+scale increases, this is a 
+correction of the previous 
+hypothesis which believes small 
+models have a flat scaling curve
+that does not increase with model 
+scale. We show the importance of 
+using the instruction-tuned 
+checkpoints as the base
+model because their generalization 
+performance is better
+than the raw pretrained checkpoints. 
+Mutiple tradeoff happens during 
+model specialization, including 
+the loss of BBH
+performance, the balance between 
+in-distribution and outof-distribution 
+generalization, and the balance 
+of in-context
+learning and zero-shot generalization 
+ability. We hope our
+practice and discoveries can serve 
+as an important attempt
+towards specialized smaller models 
+in the new research..
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//////////////////////////////
+
+
+
+
+,,,,,
+1     question    :
+what   are  recent  advvances  in   
+small  language  models ?
+in reasoning ?
+in  domain   ?
+......  
+define    limitationns  and     problems 
+or  recent    tehcniques  in  reasoning 
 
 
